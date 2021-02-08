@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTP-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmBoi Virtual Pharmacy</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header id="header">
+        <h1 id="pharmboi-logo"><a href="#"><img id="header-img" class="smaller-img" src="rx-logo.png" alt="PharmBoi Logo">PharmBoi</a></h1>
+        <nav id="nav-bar"> 
+            <a class="nav-link" href="#how-it-works">How It Works</a>
+            <a class="nav-link" href="#phm-services">Services</a>
+            <a class="nav-link" href="#reviews">Reviews</a>
+            <div id="contact-us">
+                <a href="#"><button class="cta">Contact Us</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h2>PharmBoi Virtual Pharmacy</h2>
+        <p>Get all your prescription needs from the comfort of your home!</p>
+        <label for="fullName">
+            <input id="fullName" name="fullName" type="text" placeholder="Full Name" required>
+        </label>
+        <label for="email">
+            <input id="email" name="email" type="email" placeholder="E-mail Address" required>
+        </label>
+        <button id="submit" type="submit" class="cta">Register</button>
+        <!-- alternative submit input 
+            <input id="submit" type="submit" class="cta">
+        -->
+    </form><hr>
+
+    <article id="how-it-works">
+        <h2 style="width: 100%; margin-left: 12%;">How It Works</h2>
+        <section id="create-profile">
+            <h3>Create Profile</h3>
+            <p>It takes only 2 minutes</p>
+            <img class="medium-img" src="profile.png" alt="Image of a profile"><br><br>
+            <a id="get-started-btn" href="#"><button class="cta">Get Started</button></a>
+        </section>
+        <section id="upload-rx">
+            <h3>Upload Prescription</h3>
+            <p>Take a photo or enter your pharmacy details</p>
+            <img class="medium-img" src="prescription.png" alt="Image of a prescription"><br><br>
+            <a id="upload-btn" href="#"><button class="cta">Upload</button></a>
+        </section>
+        <section id="delivery">
+            <h3>Free Delivery</h3>
+            <p>Next day delivery straight to your door</p>
+            <img class="medium-img" src="delivery-truck.png" alt="Image of delivery a truck"><br><br>
+            <a id="learn-more-btn" href="#"><button class="cta">Learn More</button></a>
+        </section>
+    </article><hr>
+
+    <div id="phm-services">
+        <h2 style="width: 100%; margin-left: 7.8%;">Pharmacy Services</h2>
+        <div id="prescriptions-img">
+            <img class="medium-img" src="first-aid-box.png" alt="Image of First Aid Kit">
+        </div>
+        <div id="prescriptions-txt">
+            <h3>Prescriptions</h3>
+            <p>Your pharmacist can prescribe medications for certain minor ailments (e.g. acne, yeast infections).</p>
+            <p>Pharmacists may also renew and adapt prescriptions, ask us about it on your next visit!</p>
+        </div>
+         <div id="flu-shots-img">
+            <img class="medium-img" src="needle.png" alt="Image of needle">
+        </div>
+        <div id="flu-shots-txt">
+            <h3>Flu Shots</h3>
+            <p>Make sure to get your flu vaccination every year to protect yourself and your loved ones!</p>
+            <p>This is especially important during the covid-19 pandemic to protect those with weakened immune systems.</p>
+        </div>
+        <div id="consultation-img">
+            <img class="medium-img" src="consulting.png" alt="Image of virtual consultation">
+        </div>
+        <div id="consultation-txt">
+            <h3>One-on-one Consultation</h3>
+            <p>Our pharmacists will provide personalized medication information each time you fill your medications!</p>
+        </div>
+    </div><hr>
+
+    <div id="video-and-reviews">
+        <div id="video-embed">
+            <h2>Canadian Pharmacy Practice</h2>
+            <p>This video by the Canadian Pharmacists Association describes what pharmacists in Canada can do for you.</p><br>
+            <iframe id="video" src="https://www.youtube.com/embed/aZqwfKXEi_I" width="426" height="240" allowfullscreen>
+            </iframe>
+        </div>
+        <div id="reviews">
+            <h2>Reviews</h2>
+            <!-- future code for js interactive reviews -->
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div id="footbar">
+            <a id="privacy" class="foot-links" href="#">Privacy</a>
+            <a id="terms" class="foot-links" href="#">Terms</a>
+            <a id="contact" class="foot-links" href="#">Contact</a>
+        </div>
+        <p>Copyright 2021, PharmBoi</p>
+    </footer>
+
+</body>
+
+</html>
